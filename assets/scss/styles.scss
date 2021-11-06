@@ -4,8 +4,13 @@
 	padding:0;
 }
 
+@font-face {
+  font-family: AnonymousPro;
+  src: url(assets/AnonymousPro-Regular.ttf);
+}
+
 body {
-	font: 1rem/1.5 -apple-system,BlinkMacSystemFont,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,roboto,noto,"segoe ui",arial,sans-serif;
+	font: 1rem/1.5 AnonymousPro, -apple-system,BlinkMacSystemFont,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,roboto,noto,"segoe ui",arial,sans-serif;
 	text-rendering:optimizeSpeed;
 }
 
@@ -48,7 +53,7 @@ a, body {
 
 code,pre {
 	color: #353535;
-	font-family: San Francisco Mono,Monaco,"Consolas","Lucida Console","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+	font-family: AnonymousPro, San Francisco Mono,Monaco,"Consolas","Lucida Console","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 	font-size: normal;
 	border: 1px solid #353535;
     font-size: small;
